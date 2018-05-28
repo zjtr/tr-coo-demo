@@ -1,0 +1,30 @@
+{
+  "name": "tr-coo-demo",
+  "version": "1.0.0",
+  "description": "基于vue和ts前端框架、webpack构建的前端协作项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zjtr/tr-coo-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zjtr/tr-coo-demo/issues"
+  },
+  "homepage": "https://github.com/zjtr/tr-coo-demo#readme",
+  "dependencies": {
+    "typescript": "^2.8.3",
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "ts-loader": "^4.3.0",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4"
+  }
+}
